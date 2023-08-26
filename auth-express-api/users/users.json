@@ -1,0 +1,20 @@
+[
+  {
+    "username": "soji",
+    "password": "12345678",
+    "api_key": "soji_12345678",
+    "user_type": "user"
+  },
+  {
+    "username": "samie",
+    "password": "12345678",
+    "api_key": "samie_12345678",
+    "user_type": "admin"
+  },
+  {
+    "username": "daniel",
+    "password": "12345678",
+    "api_key": "daniel_12345678",
+    "user_type": "user"
+  }
+]
