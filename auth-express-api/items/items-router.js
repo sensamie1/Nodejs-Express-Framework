@@ -20,10 +20,10 @@ itemsRouter.post('/', globalMiddleware.checkBody, globalMiddleware.checkAdmin, m
 // GET ONE ITEM
 itemsRouter.get('/:id', controller.getOneItem)
 
-// UPDATE ON ITEM
+// UPDATE ONE ITEM
 itemsRouter.patch("/:id", globalMiddleware.checkBody, globalMiddleware.checkAdmin, controller.updateItem)
     
-// Delete one /students/134
+// DELETE ONE /items/134
 itemsRouter.delete("/:id", globalMiddleware.checkBody, globalMiddleware.checkAdmin, controller.deleteItem )
 
 module.exports = itemsRouter
