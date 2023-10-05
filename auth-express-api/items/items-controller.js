@@ -22,7 +22,7 @@ const saveToDb = (req, res) => {
 }
 
 // READ DATABASE (fs.reaFile)
-const readDb = (rea, res) => {
+const readDb = (req, res) => {
   fs.readFile(itemsDbPath, "utf8", (err, items)=> {
     if (err){
       console.log(err)
